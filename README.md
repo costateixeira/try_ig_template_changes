@@ -2,7 +2,7 @@
 
 This script gets a FHIR IG template from a github repo / branch, and replaces your local cache. This is used to test the IG templates.
 
-##How to use
+## How to use
 Just download this file anywhere, replace the values in the beginning of the file by what you want to replace with what, and run. It will replace your locally cached template
 
 
