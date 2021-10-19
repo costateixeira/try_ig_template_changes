@@ -2,7 +2,12 @@
 
 This script gets a FHIR IG template from a github repo / branch, and replaces your local cache. This is used to test the IG templates.
 
-Windows: Uses Robocopy 
+##How to use
+Just download this file anywhere, replace the values in the beginning of the file by what you want to replace with what, and run. It will replace your locally cached template
+
+
+
+
 
 How this works: 
 This replaces the entire files except package.json to fool the publisher into thinking the template hasn't been touched, so the publisher does not download a new version.
@@ -16,6 +21,7 @@ This replaces the entire files except package.json to fool the publisher into th
 7. restores the package.cache from the original template folder 
 
 This could be improved, it's just a first working prototype
+Windows only. Uses Robocopy 
 
 To do:
 * Fail gracefully
