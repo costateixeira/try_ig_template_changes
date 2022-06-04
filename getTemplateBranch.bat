@@ -1,8 +1,8 @@
 @ECHO OFF
 
 REM SET THESE VARIABLES
-set templateurl=https://github.com/HL7/ig-template-base.git
-set templatebranch=jose-branch
+set templateurl=https://github.com/costateixeira/ig-template-base.git
+set templatebranch=master
 set templatefolder=fhir.base.template#current
 
 
